@@ -1,0 +1,10 @@
+08:58:01 **** Incremental Build of configuration Debug for project testeBtnLed ****
+make -j12 all 
+arm-none-eabi-size  testeBtnLed.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9448	     68	   1644	  11160	   2b98	testeBtnLed.elf
+Finished building: default.size.stdout
+ 
+
+08:58:01 Build Finished. 0 errors, 0 warnings. (took 207ms)
+
