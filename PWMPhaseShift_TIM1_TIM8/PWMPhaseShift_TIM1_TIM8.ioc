@@ -1,0 +1,19 @@
+
+# STM32CubeMX Project
+ProjectManager.ProjectName=PWMPhaseShift_TIM1_TIM8
+ProjectManager.TargetToolchain=STM32CubeIDE
+RCC.OscillatorType=HSE
+RCC.HSEState=ON
+RCC.LSEState=OFF
+RCC.PLLSource=HSE
+RCC.PLL.PLLState=RCC_PLL_ON
+RCC.PLL.PLLSource=RCC_PLLSOURCE_HSE
+RCC.PLL.PLLM=4
+RCC.PLL.PLLN=240
+RCC.PLL.PLLP=2
+RCC.PLL.PLLQ=2
+RCC.PLL.PLLR=2
+TIM1.Channel1=PWM Generation CH1 CH1N
+TIM8.Channel1=PWM Generation CH1 CH1N
+TIM8.SlaveMode=TriggerMode
+TIM8.TriggerSource=ITR0
